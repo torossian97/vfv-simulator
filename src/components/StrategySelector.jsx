@@ -21,16 +21,8 @@ export function StrategySelector({ value, onChange, config, onConfigChange }) {
             id="cashOnly"
             label="Cash (no investing, just cash decay)"
           />
-          <RadioGroupItem
-            value="lumpSum"
-            id="lumpSum"
-            label="Lump Sum (100k all at once)"
-          />
-          <RadioGroupItem
-            value="dca"
-            id="dca"
-            label="Regular DCA (fixed weekly)"
-          />
+          <RadioGroupItem value="lumpSum" id="lumpSum" label="Lump Sum" />
+          <RadioGroupItem value="dca" id="dca" label="Regular DCA" />
           <RadioGroupItem
             value="adaptiveDca"
             id="adaptiveDca"

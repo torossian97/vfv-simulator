@@ -65,7 +65,7 @@ export function MarketScenarioSelector({ value, onChange }) {
           id="growthRate"
           type="number"
           step="0.1"
-          value={value.growthRate ?? 7}
+          value={value.growthRate ?? 0.07}
           onChange={(e) =>
             handleChange("growthRate", parseFloat(e.target.value))
           }
